@@ -216,13 +216,15 @@ a:hover, a:focus {
 .welcome {}
 .welcome-cell{padding: 1px 40px 40px 40px;}
 .welcome .left-side-strip { 
-  position: relative; 
+  position: absolute; 
+  top: 0;
 }
 .welcome .left-side-strip img {
   left: -32px;
   position: absolute;
-  top: -309px;
+  top: 0px;
   display:none;
+  height:296px;
 }
 .camps{}
 .camps-cell{padding: 40px;}
@@ -250,7 +252,70 @@ a:hover, a:focus {
 	margin:0px;
 }
 
-
+/*** Camps Page ***/
+.left-content{
+	 position: relative;
+	 z-index: 1;
+}
+.left-side-nav {}
+.left-side-nav ul {
+	margin: 0 0 10px;
+	padding: 15px;
+}
+.left-side-nav ul li {
+	border-bottom: 1px solid #fff;
+	list-style: outside none none;
+	padding: 12px 0;
+}
+.left-content .contact-bg {
+	background-image: url("../img/leftside_contactus_bg.png");
+	color: #000;
+	font-size: 16px;
+	height: 64px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 25px;
+	width: 100%;
+	position: relative;
+}
+.left-content .plus {
+	background-image: url("../img/p.png");
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	width: 20px;
+}
+.left-content .minus {
+	background-image: url("../img/m.png");
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	width: 20px;
+}
+.left-content .triangle1 {
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+.left-content .triangle2{ 
+  position: relative; 
+}
+.left-content .triangle1 img {
+    display: block;
+    height: 250px;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.left-content .triangle2 img {
+  bottom: -7px;
+  display: block;
+  left: 1px;
+  position: absolute;
+  width: 100%;
+}
 
 
 
