@@ -267,6 +267,7 @@ a:hover, a:focus {
 }
 .left-content .contact-bg {
 	background-image: url("../img/leftside_contactus_bg.png");
+	background-size: 100% 100%;
 	color: #000;
 	font-size: 16px;
 	height: 64px;
@@ -301,16 +302,16 @@ a:hover, a:focus {
   position: relative; 
 }
 .left-content .triangle1 img {
-    display: block;
+    display: none;
     height: 260px;
     position: relative;
-    right: 0;
+    right: 2px;
     top: 0;
 }
 .left-content .triangle2 img {
   bottom: -7px;
-  display: block;
-  left: 1px;
+  display: none;
+  left: 0px;
   position: absolute;
   width: 100%;
 }
@@ -458,6 +459,9 @@ a:hover, a:focus {
 	padding: 5px 5px 0 20px;
 }
 .welcome .left-side-strip img {display:block;}    
+.left-content .triangle1 img {display: block;}
+.left-content .triangle2 img {display: block;}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
