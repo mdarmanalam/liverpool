@@ -211,8 +211,6 @@ a:hover, a:focus {
 }
 
 /*** Home Page ***/
-.bg-red{ background-color: #e31b23;}
-.bg-aquamarine { background-color: #009982;}
 .welcome {}
 .welcome-cell{padding: 1px 40px 40px 40px;}
 .welcome .left-side-strip { 
@@ -317,6 +315,106 @@ a:hover, a:focus {
   width: 100%;
 }
 
+
+/*** Generic class of all Pages ***/
+.bg-red{ background-color: #e31b23;}
+.bg-aquamarine { background-color: #009982;}
+.bg-white { background-color: #ffffff;}
+.container .title-text .headline1 {
+	background-color: #000;
+	display: table;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 60px 20px 20px;
+	text-transform: uppercase;
+}
+.container .title-text .border-bottom-red {
+	border-bottom: 5px solid #e31b23;
+}
+
+/*** Downloads Page ***/
+.downloads-form {
+	margin-bottom: 40px;
+}
+.downloads-form h3{
+	margin:20px 20px 40px;
+}
+.btn-download {
+	margin: 15px auto;
+	width: 100px;
+}
+.btn-download a {
+	background-color: #b3b3b3;
+	color: #000;
+	display: table-cell;
+	font-size: 12px;
+	height: 50px;
+	padding: 5px;
+	text-decoration: none;
+	vertical-align: middle;
+	width: 100px;
+}
+
+/*** News Page ***/
+.news .blog-image {  position: relative; }
+.news .blog-image .text {
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+}
+.news .blog-image .headline1 p {
+  background-color: #000;
+  display: table;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.news .blog-image .headline2 p {
+  background-color: #000;
+  display: table;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.news .left-content .blog-content {
+	padding: 20px 0px;
+}
+.news .right-content .blog-content {
+	padding: 20px;
+}
+.news .left-content .blog-content p {
+	color: #fff;
+}
+.news .left-content .story {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+.news .left-content .story .headline {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.news .left-content .story .date {
+  padding: 10px 0;
+}
+.news .left-content .story .description p {
+  font-size: 12px;
+}
+.news .right-content .blog-content p {
+	color: #000;
+}
+.news .left-content .story .read-more {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+.news .left-content .story .read-more:hover {
+	color: yellow;
+}
 
 
 /*** Media Query ***/
