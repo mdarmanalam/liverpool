@@ -302,7 +302,7 @@ a:hover, a:focus {
 }
 .left-content .triangle1 img {
     display: block;
-    height: 250px;
+    height: 260px;
     position: relative;
     right: 0;
     top: 0;
@@ -326,7 +326,7 @@ a:hover, a:focus {
 	font-size: 40px;
 	line-height: 40px;
 	margin: 0;
-	padding: 60px 20px 20px;
+	padding: 30px 20px 20px;
 	text-transform: uppercase;
 }
 .container .Heading-text .border-bottom-red {
