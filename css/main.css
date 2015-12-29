@@ -320,7 +320,7 @@ a:hover, a:focus {
 .bg-red{ background-color: #e31b23;}
 .bg-aquamarine { background-color: #009982;}
 .bg-white { background-color: #ffffff;}
-.container .title-text .headline1 {
+.container .Heading-text .headline1 {
 	background-color: #000;
 	display: table;
 	font-size: 40px;
@@ -329,7 +329,7 @@ a:hover, a:focus {
 	padding: 60px 20px 20px;
 	text-transform: uppercase;
 }
-.container .title-text .border-bottom-red {
+.container .Heading-text .border-bottom-red {
 	border-bottom: 5px solid #e31b23;
 }
 
