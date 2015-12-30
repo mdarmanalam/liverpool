@@ -65,6 +65,8 @@ a:hover, a:focus {
 .nopadding-right {
    padding-right: 0 !important;   
 }
+.padding-all-15{padding: 15px;}
+.margin-bottom-30{margin-bottom: 30px;}
 
 /*** Nav ***/
 .nav {
@@ -210,6 +212,24 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
+/*** Generic class of all Pages ***/
+.bg-red{ background-color: #e31b23;}
+.bg-aquamarine { background-color: #009982;}
+.bg-black { background-color: #000000;}
+.bg-white { background-color: #ffffff; color: #000000;}
+.container .Heading-text .headline1 {
+	background-color: #000;
+	display: table;
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 30px 20px 20px;
+	text-transform: uppercase;
+}
+.container .Heading-text .border-bottom-red {
+	border-bottom: 5px solid #e31b23;
+}
+
 /*** Home Page ***/
 .welcome {}
 .welcome-cell{padding: 1px 40px 40px 40px;}
@@ -315,24 +335,93 @@ a:hover, a:focus {
   position: absolute;
   width: 100%;
 }
-
-
-/*** Generic class of all Pages ***/
-.bg-red{ background-color: #e31b23;}
-.bg-aquamarine { background-color: #009982;}
-.bg-white { background-color: #ffffff;}
-.container .Heading-text .headline1 {
-	background-color: #000;
-	display: table;
-	font-size: 40px;
-	line-height: 40px;
-	margin: 0;
-	padding: 30px 20px 20px;
-	text-transform: uppercase;
+.right-content {
+  margin-bottom: 30px;
 }
-.container .Heading-text .border-bottom-red {
-	border-bottom: 5px solid #e31b23;
+.right-content .include{
+	padding:15px;
+	margin-bottom: 10px;
 }
+.right-content .include h1{	
+	margin-top: 0px;
+}
+.right-content .include ul {
+  margin: 0;
+  padding: 0;
+}
+.right-content .clip  {
+
+}
+.right-content .clip .text {
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+}
+.right-content .clip .col-md-4 {
+  padding: 0;
+  margin-bottom:10px;
+}
+.right-content .clip .headline1 p {
+    background-color: #000;
+    display: table;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px;
+}
+.right-content .clip .headline2 p {
+    background-color: #000;
+    display: table;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px;
+}
+.right-content .clip .overlay {
+  background: rgba(0, 0, 0 , 0.5);
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.right-content .clip-thumb  {
+}
+.right-content .clip-thumb .text {
+  bottom: 25px;
+  left: 20px;
+  position: absolute;
+}
+.right-content .clip-thumb .col-md-12 {
+  padding: 0;
+  margin-bottom:10px;
+}
+.right-content .clip-thumb .headline1 p {
+    background-color: #000;
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px;
+}
+.right-content .clip-thumb .headline2 p {
+    background-color: #000;
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px;
+}
+
+/*** Location Page ***/
+.right-content .location-map{margin:30px 0px;}
 
 /*** Downloads Page ***/
 .downloads-form {
