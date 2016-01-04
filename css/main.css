@@ -426,6 +426,7 @@ a:hover, a:focus {
 /*** Downloads Page ***/
 .downloads-form {
 	margin-bottom: 40px;
+	min-height: 371px;
 }
 .downloads-form h3{
 	margin:20px 20px 40px;
@@ -534,7 +535,7 @@ a:hover, a:focus {
 #slider-thumbs .list-inline > li:last-child {
   padding-right: 0;
 }
-.selected img {
+#slider-thumbs .selected img {
 	opacity:0.5;
 }
 
